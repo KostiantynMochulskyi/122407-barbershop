@@ -2,8 +2,9 @@ body{
 	font-family: "PT Sans Narrow", sans-serif;
 	font-size: 14px;
 	line-height: 24px;
-	color: #000000;
-	font-weight: bold;	
+	color: #ffffff;
+	font-weight: bold;
+	background: url("../img/bg.jpg");
 }
 h1{
 	font-family: "PT Sans Narrow", sans-serif;
