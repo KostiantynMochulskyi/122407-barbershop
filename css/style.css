@@ -4,7 +4,8 @@ body{
 	line-height: 24px;
 	color: #ffffff;
 	font-weight: bold;
-	background: url("../img/bg.jpg");
+	background: #000000 url("../img/bg.jpg") no-repeat 50% 0;
+  	background-size: 2560px auto;
 }
 h1{
 	font-family: "PT Sans Narrow", sans-serif;
@@ -29,4 +30,7 @@ h3{
 	color: #000000;
 	font-weight: bold;
 	letter-spacing: 0.01em;
+}
+.container{
+	width: 940px;
 }

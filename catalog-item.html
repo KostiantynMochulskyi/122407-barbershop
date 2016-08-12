@@ -4,12 +4,15 @@
 	<meta charset="utf-8">
 	<title>Набор для путешествий "BAXTER OF CALIFORNIA"</title>
 	<link href="css/style.css" rel="stylesheet">
+	<link href="css/normalize.css" rel="stylesheet">
 </head>
 <body>
-	<header class="item-header">
-		<div class="main-header-container">
-        	<a class="main-header-logo" href="index.html"><img src="img/Logo.png"></a>
+	<header class="main-header">
+		<div class="container">
 			<nav class="main-nav">
+				<a class="main-header-logo" href="index.html">
+					<img src="img/Logo.png" alt="logotype">
+				</a>
 				<ul>
 					<li>
 						<a href="#">Информация</a>
@@ -29,55 +32,58 @@
 				</ul>
 			</nav>
 			<div class="user-block">
-				<a class="login" href="#"><img class="login-icon" src="img/icon-login.png" alt="Вход">Вход</a>
+				<a class="login" href="#">
+					<img class="login-icon" src="img/icon-login.png" alt="Enter">Вход
+				</a>
 			</div>
 		</div>
 	</header>
-	<main class="catalog-content">
-  	<header>
-    	<h1>НАБОР ДЛЯ ПУТЕШЕСТВИЙ "BAXTER OF CALIFORNIA"</h1>
+	<main class="container">
+		<header>
+			<h1>НАБОР ДЛЯ ПУТЕШЕСТВИЙ "BAXTER OF CALIFORNIA"</h1>
 		</header>
-		<nav class="breadcrumbs">
-			<ul class="breadcrumbs-list">
-				<li>
-					<a href="#">ГЛАВНАЯ</a>
-				</li>
-				<li>
-					<img src="img/Shape 1 copy.svg">
-					<a href="#">МАГАЗИН</a>
-				</li>
-				<li>
-					<img src="img/Shape 1 copy.svg">
-					<a href="#">СРЕДСТВА ДЛЯ УХОДА</a>
-				</li>
-				<li>
-					<img src="img/Shape 1 copy.svg">
-					<span>НАБОР ДЛЯ ПУТЕШЕСТВИЙ "BAXTER OF CALIFORNIA"</span>
-				</li>
-			</ul>
-		</nav>
-		<div class="item-row">
+		<ul class="breadcrumbs">
+			<li>
+				<a href="#">ГЛАВНАЯ</a>
+			</li>
+			<li>
+				<img src="img/Shape1copy.svg" alt="rhombus">
+				<a href="#">МАГАЗИН</a>
+			</li>
+			<li>
+				<img src="img/Shape1copy.svg" alt="rhombus">
+				<a href="#">СРЕДСТВА ДЛЯ УХОДА</a>
+			</li>
+
+			<li>
+				<img src="img/Shape1copy.svg" alt="rhombus">
+				<span>НАБОР ДЛЯ ПУТЕШЕСТВИЙ "BAXTER OF CALIFORNIA"</span>
+			</li>
+		</ul>
+		<div class="item-block">
 			<div class="item-left">
-				<div class="item-bigImg">
-					<img src="img/big-item.jpg" width="" height="" alt="">
-				</div>
+				<img class="item-bigImg" src="img/big-item.jpg" width="460" height="498" alt="">
 				<div class="item-smallImg">
-					<div class="item-smallImg-first">
-						<img src="img/small-item1.jpg" width="" height="" alt="">
+					<div class="smallImg">
+						<button type="button">
+							<img class="smallImg" src="img/small-item1.jpg" width="140" height="149" alt="">
+						</button>
 					</div>
-					<div class="item-smallImg-second">
-						<img src="img/small-item2.jpg" width="" height="" alt="">
+					<div class="smallImg">
+						<button type="button">
+							<img class="smallImg" src="img/small-item2.jpg" width="140" height="149" alt="">
+						</button>
 					</div>
-					<div class="item-smallImg-third">
-						<img src="img/small-item3.jpg" width="" height="" alt="">
+					<div class="smallImg">
+						<button type="button">
+							<img class="smallImg" src="img/small-item3.jpg" width="140" height="149" alt="">
+						</button>
 					</div>
 				</div>
 			</div>
 			<div class="item-right">
-				<div class="item-content-first">
-					<p>ЕСТЬ В НАЛИЧИИ</p>
-				</div>
-				<div class="item-content-second">
+				<div class="item-content">
+					<p>ЕСТЬ В НАЛИЧИИ</p>				
 					<p>АРТИКУЛ:DEXTER-AE</p>
 				</div>
 				<div class="item-description">
@@ -103,28 +109,27 @@
 					</ul>
 				</div>
 			</div>
-
 		</div>
 	</main>
-		<footer class="catalog-footer">
-	  	<div class="container">
-	      <section class="footer-contacts">
-	        Барбершоп «Бородинский»<br>
-	        Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-	        <a href="#">Как нас найти?</a><br>
-	        Телефон: +7 (812) 666-02-66
-	      </section>
-	      <section class="footer-social">
-	      	<p>Давайте дружить!</p>
-	        <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-	        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-	        <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-	      </section>
-	      <section class="footer-copyright">
-	        <p>Разработано:</p>
-	        <a class="developers-btn btn" href="https://htmlacademy.ru">HTML Academy</a>
-	      </section>
-	    </div>
-	  </footer>
+	<footer class="main-footer">
+		<div class="container">
+			<section class="footer-contacts">
+				<h3>Барбершоп «Бородинский»</h3>
+				Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+				<a href="#">Как нас найти?</a><br>
+				Телефон: +7 (812) 666-02-66
+			</section>
+			<section class="footer-social">
+				<h3>Давайте дружить!</h3>
+				<a class="social-btn social-btn-vk" href="#"><img class="vk-icon" src="img/vk.png" alt="vkontakte"></a>
+				<a class="social-btn social-btn-fb" href="#"><img class="vk-icon" src="img/fb.png" alt="facebook"></a>
+				<a class="social-btn social-btn-inst" href="#"><img class="vk-icon" src="img/in.png" alt="instagram"></a>
+			</section>
+			<section class="footer-copyright">
+				<h3>Разработано:</h3>
+				<a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+			</section>
+		</div>
+	</footer>
 </body>
 </html>
