@@ -3,17 +3,17 @@
 <head>
 	<meta charset="utf-8">
 	<title>Набор для путешествий "BAXTER OF CALIFORNIA"</title>
-	<link href="css/style.css" rel="stylesheet">
 	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 	<header class="main-header">
-		<div class="container">
-			<nav class="main-nav">
-				<a class="main-header-logo" href="index.html">
+		<div class="container clearfix">
+			<nav class="main-nav clearfix">
+				<a class="clearfix" href="index.html">
 					<img src="img/Logo.png" alt="logotype">
 				</a>
-				<ul>
+				<ul class="clearfix">
 					<li>
 						<a href="#">Информация</a>
 					</li>
@@ -31,10 +31,11 @@
 					</li>
 				</ul>
 			</nav>
-			<div class="user-block">
-				<a class="login" href="#">
-					<img class="login-icon" src="img/icon-login.png" alt="Enter">Вход
-				</a>
+			<div class="user-block clearfix">
+				<span class="clearfix">
+					<a href="#"><img src="img/icon-login.png" alt="Enter"></a>
+					<a href="#">Вход</a>
+				</span>
 			</div>
 		</div>
 	</header>
@@ -60,29 +61,25 @@
 				<span>НАБОР ДЛЯ ПУТЕШЕСТВИЙ "BAXTER OF CALIFORNIA"</span>
 			</li>
 		</ul>
-		<div class="item-block">
+		<div class="item-block clearfix">
 			<div class="item-left">
-				<img class="item-bigImg" src="img/big-item.jpg" width="460" height="498" alt="">
-				<div class="item-smallImg">
-					<div class="smallImg">
-						<button type="button">
-							<img class="smallImg" src="img/small-item1.jpg" width="140" height="149" alt="">
-						</button>
-					</div>
-					<div class="smallImg">
-						<button type="button">
-							<img class="smallImg" src="img/small-item2.jpg" width="140" height="149" alt="">
-						</button>
-					</div>
-					<div class="smallImg">
-						<button type="button">
-							<img class="smallImg" src="img/small-item3.jpg" width="140" height="149" alt="">
-						</button>
-					</div>
+				<figure>
+					<img src="img/big-item.jpg" width="460" height="498" alt="img item">
+				</figure>
+				<div class="item-smallImg clearfix">					
+					<a href="#">
+						<img src="img/small-item1.jpg" width="140" height="149" alt="">
+					</a>
+					<a href="#">
+						<img src="img/small-item2.jpg" width="140" height="149" alt="">
+					</a>					
+					<a href="#">
+						<img src="img/small-item3.jpg" width="140" height="149" alt="">
+					</a>
 				</div>
 			</div>
 			<div class="item-right">
-				<div class="item-content">
+				<div class="item-content clearfix">
 					<p>ЕСТЬ В НАЛИЧИИ</p>				
 					<p>АРТИКУЛ:DEXTER-AE</p>
 				</div>

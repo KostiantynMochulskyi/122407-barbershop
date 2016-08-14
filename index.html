@@ -3,14 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<title>Барбершоп «Бородинский»</title>
-	<link href="css/style.css" rel="stylesheet">
 	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">	
 </head>
 <body>
 	<header class="main-header">
-		<div class="container">
+		<div class="container clearfix">
 			<nav class="main-navigation">
-				<ul>
+				<ul class="clearfix">
 					<li>
 						<a href="#">Информация</a>
 					</li>
@@ -28,18 +28,19 @@
 					</li>
 				</ul>
 			</nav>
-			<div class="user-block">
-				<a class="login" href="#">
-					<img class="login-icon" src="img/icon-login.png" alt="Enter">Вход
-				</a>
-			</div>
+			<div class="user-block clearfix">
+				<span class="clearfix">
+					<a href="#"><img src="img/icon-login.png" alt="Enter"></a>
+					<a href="#">Вход</a>
+				</span>
+			</div>			
 		</div>
 	</header>
 	<main class="container">
 		<div class="index-logo">
 			<img src="img/BORODINSKI_Logo.png" width="368" height="204" alt="Барбершоп «Бородинский»">
 		</div>
-		<section class="features">
+		<section class="features clearfix">
 			<div class="features-item">
 				<b class="features-name">Быстро</b>
 				<div class="rhombus">
@@ -62,7 +63,7 @@
 				<p>Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
 			</div>
 		</section>
-		<div class="index-content">
+		<div class="index-content clearfix">
 			<div class="index-content-left">
 				<h2 class="index-content-title">Новости</h2>
 				<ul class="news-preview">
@@ -118,7 +119,7 @@
 		</div>
 	</main>
 	<footer class="main-footer">
-		<div class="container">
+		<div class="container clearfix">
 			<section class="footer-contacts">
 				<h3>Барбершоп «Бородинский»</h3>
 				Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>

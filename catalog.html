@@ -3,17 +3,17 @@
 <head>
 	<meta charset="utf-8">
 	<title>Каталог товаров Барбершоп «Бородинский»</title>
-	<link href="css/style.css" rel="stylesheet">
 	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">	
 </head>
 <body>
 	<header class="main-header">
-		<div class="container">
-			<nav class="main-nav">
-				<a class="main-header-logo" href="index.html">
+		<div class="container clearfix">
+			<nav class="main-nav clearfix">
+				<a class="clearfix" href="index.html">
 					<img src="img/Logo.png" alt="logotype">
 				</a>
-				<ul>
+				<ul class="clearfix">
 					<li>
 						<a href="#">Информация</a>
 					</li>
@@ -31,14 +31,15 @@
 					</li>
 				</ul>
 			</nav>
-			<div class="user-block">
-				<a class="login" href="#">
-					<img class="login-icon" src="img/icon-login.png" alt="Enter">Вход
-				</a>
+			<div class="user-block clearfix">
+				<span class="clearfix">
+					<a href="#"><img src="img/icon-login.png" alt="Enter"></a>
+					<a href="#">Вход</a>
+				</span>
 			</div>
 		</div>
 	</header>
-	<main class="container">
+	<main class="container clearfix">
 		<header>
 			<h1>СРЕДСТВА ДЛЯ УХОДА</h1>
 		</header>
@@ -124,116 +125,142 @@
 				<button type="submit" class="show-btn btn">Показать</button>
 		    </form>
 		</aside>
-    	<section class="block-items">
-    		<div class="catalog-row">
-				<div class="item">
-					<a href="#">
-						<img src="img/ct-item1.jpg" alt="img item">
-					</a>			
-					<h2 class="item-name">
-						<a href="#" class="item-link">
-							<span>Набор для путишествий</span>
-							<span>"BAXTER OF CALIFORNIA"</span>
-						</a>
-					</h2>
-					<div class="price-buy">
-						<span class="price">2 900 РУБ.</span>
-						<a href="#" class="buy-btn btn">КУПИТЬ</a>
+    	<div class="block-items">
+    		<section>
+    			<div class="catalog-row clearfix">
+					<div class="item">
+						<div class="item-img">
+							<a href="#">
+								<img src="img/ct-item1.jpg" alt="img item">
+							</a>
+						</div>
+						<div class="name-price">			
+							<h2>
+								<a href="#">
+									<span>Набор для путишествий</span>
+									<span>"BAXTER OF CALIFORNIA"</span>
+								</a>
+							</h2>
+							<div class="price-buy">
+								<span class="price">2 900 РУБ.</span>
+								<a href="#" class="buy-btn btn">КУПИТЬ</a>
+							</div>
+						</div>
+					</div>				
+					<div class="item">
+						<div class="item-img">
+							<a href="#">
+								<img src="img/ct-item2.jpg" alt="img item">
+							</a>
+						</div>
+						<div class="name-price">
+							<h2 class="item-name">
+								<a href="#" class="item-link">
+									<span>Увлажняющий кондиционер</span>
+									<span>"BAXTER OF CALIFORNIA"</span>
+								</a>
+							</h2>
+							<div class="price-buy">
+								<span class="price">750 РУБ.</span>
+								<a href="#" class="buy-btn btn">КУПИТЬ</a>
+							</div>
+						</div>
 					</div>
-				</div>				
-				<div class="item">
-					<a href="#">
-						<img src="img/ct-item2.jpg" alt="img item">
-					</a>
-					<h2 class="item-name">
-						<a href="#" class="item-link">
-							<span>Увлажняющий кондиционер</span>
-							<span>"BAXTER OF CALIFORNIA"</span>
-						</a>
-					</h2>
-					<div class="price-buy">
-						<span class="price">750 РУБ.</span>
-						<a href="#" class="buy-btn btn">КУПИТЬ</a>
-					</div>
-				</div>
-				<div class="item">
-					<a href="#">
-						<img src="img/ct-item3.jpg" alt="img item">
-					</a>
-					<h2 class="item-name">
-						<a href="#" class="item-link">
-							<span>Гель для волос</span>
-							<span>"SAUVECITO"</span>
-						</a>
-					</h2>
-					<div class="price-buy">
-						<span class="price">290 РУБ.</span>
-						<a href="#" class="buy-btn btn">КУПИТЬ</a>
-					</div>
-				</div>
-			</div>
-			<div class="catalog-row">
-				<div class="item">
-					<a href="#">
-						<img src="img/ct-item4.jpg" alt="img item">
-					</a>
-					<h2 class="item-name">
-						<a href="#" class="item-link">
-							<span>Гель для укладки волос</span>
-							<span>"AMERICAN CREW"</span>
-						</a>
-					</h2>
-					<div class="price-buy">
-						<span class="price">500 РУБ.</span>
-						<a href="#" class="buy-btn btn">КУПИТЬ</a>
+					<div class="item">
+						<div class="item-img">
+							<a href="#">
+								<img src="img/ct-item3.jpg" alt="img item">
+							</a>
+						</div>
+						<div class="name-price">
+							<h2 class="item-name">
+								<a href="#" class="item-link">
+									<span>Гель для волос</span>
+									<span>"SAUVECITO"</span>
+								</a>
+							</h2>
+							<div class="price-buy">
+								<span class="price">290 РУБ.</span>
+								<a href="#" class="buy-btn btn">КУПИТЬ</a>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="item">
-					<a href="#">
-						<img src="img/ct-item5.jpg" alt="img item">
-					</a>
-					<h2 class="item-name">
-						<a href="#" class="item-link">
-							<span>Гель для волос</span>
-							<span>"AMERICAN CREW"</span>
-						</a>
-					</h2>
-					<div class="price-buy">
-						<span class="price">300 РУБ.</span>
-						<a href="#" class="buy-btn btn">КУПИТЬ</a>
+				<div class="catalog-row clearfix">
+					<div class="item">
+						<div class="item-img">
+							<a href="#">
+								<img src="img/ct-item4.jpg" alt="img item">
+							</a>
+						</div>
+						<div class="name-price">
+							<h2 class="item-name">
+								<a href="#" class="item-link">
+									<span>Гель для укладки волос</span>
+									<span>"AMERICAN CREW"</span>
+								</a>
+							</h2>
+							<div class="price-buy">
+								<span class="price">500 РУБ.</span>
+								<a href="#" class="buy-btn btn">КУПИТЬ</a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-img">
+							<a href="#">
+								<img src="img/ct-item5.jpg" alt="img item">
+							</a>
+						</div>
+						<div class="name-price">
+							<h2 class="item-name">
+								<a href="#" class="item-link">
+									<span>Гель для волос</span>
+									<span>"AMERICAN CREW"</span>
+								</a>
+							</h2>
+							<div class="price-buy">
+								<span class="price">300 РУБ.</span>
+								<a href="#" class="buy-btn btn">КУПИТЬ</a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-img">
+							<a href="#">
+								<img src="img/ct-item6.jpg" alt="img item">
+							</a>
+						</div>
+						<div class="name-price">
+							<h2 class="item-name">
+								<a href="#" class="item-link">
+									<span>Набор для бритья</span>
+									<span>"BAXTER OF CALIFORNIA"</span>
+								</a>
+							</h2>
+							<div class="price-buy">
+								<span class="price">300 РУБ.</span>
+								<a href="#" class="buy-btn btn">КУПИТЬ</a>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="item">
-					<a href="#">
-						<img src="img/ct-item6.jpg" alt="img item">
-					</a>
-					<h2 class="item-name">
-						<a href="#" class="item-link">
-							<span>Набор для бритья</span>
-							<span>"BAXTER OF CALIFORNIA"</span>
-						</a>
-					</h2>
-					<div class="price-buy">
-						<span class="price">300 РУБ.</span>
-						<a href="#" class="buy-btn btn">КУПИТЬ</a>
-					</div>
-				</div>
-			</div>
+			</section>
 			<ul class="catalog-paginator">
 				<li>
-					<a href="#first" class="nav-btn btn">1</a>
+					<a href="#first">1</a>
 				</li>
 				<li>
 					<span class="item-current">2</span>
 				</li>
 				<li>
-					<a href="#third" class="nav-btn btn">3</a>
+					<a href="#third">3</a>
 				</li>
 				<li>
-					<a href="#fourth" class="nav-btn btn">4</a>
+					<a href="#fourth">4</a>
 				</li>
 			</ul>							
-		</section>
+		</div>
 	</main>
 	<footer class="main-footer">
 		<div class="container">
